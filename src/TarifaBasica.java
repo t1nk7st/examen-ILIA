@@ -7,7 +7,7 @@ public class TarifaBasica extends Tarifa {
     @Override
     public double precioCuota(int meses) {
         double precio = meses * getPrecioMes();
-        if (meses >= 12 {
+        if (meses >= 12) {
             precio = precio * 0.9;
         }
         return precio;
