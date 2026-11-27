@@ -12,7 +12,7 @@ public class Main {
 
         socios.add(new TarifaPiscina("S-103", 35));
 
-        int meses = 3;
+        int meses = 12;
         double total = 0;
         for (Tarifa t : socios) {
             double precio = t.precioCuota(meses);
